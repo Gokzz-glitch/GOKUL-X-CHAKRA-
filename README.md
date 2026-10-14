@@ -4,7 +4,7 @@ Repository name: GOKUL-X-CHAKRA-.
 
 Dedicated startup project workspace with a local persistent memory utility.
 
-The only confirmed product context is that the founder is building a startup called CHAKRA. Industry, product, customers, and business model remain unknown until provided.
+Founder-confirmed direction: CHAKRA is an AI-in-healthcare startup currently focused on colonoscopy polyps related to colorectal cancer. The repositories and Drive materials describe ChakraModel research and prototypes; they do not by themselves establish the startup's finalized product, clinical claims, regulatory status, buyer, or business model.
 
 ## Structure
 
@@ -13,6 +13,12 @@ The only confirmed product context is that the founder is building a startup cal
 - references/ — source documents and research.
 - scripts/ — small maintenance utilities.
 - src/chakra_memory/ — Python CLI and SQLite storage.
+
+## Imported project context
+
+- [Product context](docs/product-context.md) records founder-confirmed direction and open product questions.
+- [GitHub review](docs/github-context-review.md) and [Drive review](docs/drive-context-review.md) preserve source-attributed findings, maturity labels, and conflicting evidence.
+- The current readable memory export is in `memory/CHAKRA-memory-backup-2026-10-14.md`; the live SQLite database stays in local application data.
 
 ## Install and use
 
@@ -29,3 +35,8 @@ The active database defaults to %LOCALAPPDATA%/Chakra/memory.sqlite3 on Windows 
 ## GitHub
 
 This workspace uses the existing private repository Gokzz-glitch/GOKUL-X-CHAKRA-.
+## Tests
+
+Run the CLI smoke suite with:
+
+    python -m unittest discover -s tests -v
