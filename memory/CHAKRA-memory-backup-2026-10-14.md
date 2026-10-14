@@ -129,3 +129,53 @@ GitHub ChakraModel and its colonoscopy-ai-guide integrity pages present conflict
 - Tags: github, project-boundaries, hypothesis
 
 Gokzz-glitch/chakramodelpro describes a Phase 0 literature-review effort and labels its lightweight temporal hybrid direction as a working hypothesis. Gokzz-glitch/Chakra-pulse concerns blood logistics/immunohematology and is a separate healthcare project; do not merge it into CHAKRA's current colonoscopy-polyp context without founder confirmation.
+
+## Spreadsheet is a squad tracker, not a CHAKRA product specification
+
+- Type: note
+- ID: acc32019b4a64982accb32e23762000c
+- Created: 2026-10-14T08:19:19+00:00
+- Source: Founder-shared Google Sheet: BRAIN ROTZ; dashboard A1:Z15; https://docs.google.com/spreadsheets/d/1SPunf_GOmpBif-hrCJ5BDf39Dh4H40nme5RgxtI5WsE/edit ; reviewed 2026-10-14
+- Tags: spreadsheet, team-context, scope-caveat
+
+The BRAIN ROTZ workbook covers a four-person squad (Gokul, Girupa Shankar V, Jayasri, and Varsha S Rao) and mixes GATE study, job readiness, and ML tasks. Some entries are relevant to CHAKRA's polyp research, but the workbook is not a finalized product specification or authoritative live status source.
+
+## Threshold validation task is listed as open in the team tracker
+
+- Type: note
+- ID: 340949b674ba40879f28a1f659309e55
+- Created: 2026-10-14T08:19:19+00:00
+- Source: Founder-shared Google Sheet: BRAIN ROTZ; ✅ TASK TRACKER A1:L34; Jayasri/Girupa/Varsha daily-task tabs A1:L30; reviewed 2026-10-14
+- Tags: polyp, validation, thresholds, team-tracker, reported-not-verified
+
+The master task tracker lists a high-priority task for Jayasri to test app models at thresholds 0.4, 0.5, 0.6, and 0.7 against Girupa's dataset, consulting Varsha. It is marked Not Started with due text 'End of this week'; the sheet does not establish a calendar due date or confirm whether this remains current. Confirm model/checkpoint, dataset identity and split, owner, and reporting artifact before treating it as an active execution plan.
+
+## Team spreadsheet reports dataset preparation work that needs artifact verification
+
+- Type: note
+- ID: 2b3de9c9d8d3458e962f91c7a9a0f3fa
+- Created: 2026-10-14T08:19:19+00:00
+- Source: Founder-shared Google Sheet: BRAIN ROTZ; 👤 GIRUPA - DAILY TASKS A1:L30; 👤 VARSHA - DAILY TASKS A1:L30; ✅ TASK TRACKER A1:L34; reviewed 2026-10-14
+- Tags: datasets, polyp, video, status-conflict, reported-not-verified
+
+Girupa's daily task tab reports dataset cleaning V4 as Finished, hashing a combined 800+ GB dataset as not started, classification of about 14,000 images using Varsha's report as In Progress, video duplicate checks and PolypGen cleanup as not started, and 'real colon 880gb extraction' as Finished while 24-class and 5-class splits appear incomplete. Varsha's tab marks some video model comparison/student-teacher work Finished even while master tracker entries leave related benchmark work Not Started. These are conflicting team-reported statuses, not independently verified dataset measurements or completed model results.
+
+## Spreadsheet lists candidate polyp-video sources without provenance confirmation
+
+- Type: note
+- ID: 6324278c06b944fe968d65d8211035af
+- Created: 2026-10-14T08:19:19+00:00
+- Source: Founder-shared Google Sheet: BRAIN ROTZ; Sheet3 A1:L15; Dataset & Resource Hub A1:N40; reviewed 2026-10-14
+- Tags: datasets, colonoscopy, video, provenance, reported-not-verified
+
+The video-resource tab lists LDPOLYP videos with polyps, LDPOLYP videos without polyps, Hyper-Kvasir videos, INFODB, and CAS-COLON. Listing these sources does not confirm the team has obtained, licensed, cleaned, deduplicated, or validated them. The reviewed workbook does not establish patient/video-level splits, provenance, data quality, model metrics, or clinical performance.
+
+## Treat squad spreadsheet statuses as inconsistent snapshots
+
+- Type: lesson
+- ID: cd952cf48b834d45858a55e26e861d6f
+- Created: 2026-10-14T08:19:19+00:00
+- Source: Founder-shared Google Sheet: BRAIN ROTZ; dashboard A1:Z15; ✅ TASK TRACKER A1:L34; member daily-task tabs A1:L30; reviewed 2026-10-14
+- Tags: lesson, status-integrity, planning, team-tracker
+
+When using BRAIN ROTZ for CHAKRA planning, do not rely on its dashboard counters alone: dashboard totals, master tracker, and individual daily tabs disagree on completion. Confirm the task owner, current dataset/model artifact, and evidence before carrying a status into a plan or external claim.

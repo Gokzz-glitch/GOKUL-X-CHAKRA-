@@ -18,6 +18,7 @@ Founder-confirmed direction: CHAKRA is an AI-in-healthcare startup currently foc
 
 - [Product context](docs/product-context.md) records founder-confirmed direction and open product questions.
 - [GitHub review](docs/github-context-review.md) and [Drive review](docs/drive-context-review.md) preserve source-attributed findings, maturity labels, and conflicting evidence.
+- [Squad spreadsheet review](docs/spreadsheet-context-review.md) captures CHAKRA-relevant tasks and dataset notes from the shared team workbook, with status caveats.
 - The current readable memory export is in `memory/CHAKRA-memory-backup-2026-10-14.md`; the live SQLite database stays in local application data.
 
 ## Install and use
